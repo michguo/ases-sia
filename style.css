@@ -61,7 +61,7 @@ nav li {
     position: relative;
     top: 7em;
     text-align: right;
-    right: 6.0em;
+    right: 10.0em;
     clear: both;
 }
 
@@ -151,12 +151,14 @@ a {
     height: 100%;
     position: relative;
     clear: both;
+    margin-bottom: 9em;
 }
 
 .day-header {
     font-family: 'Montserrat';
     font-size: 2em;
     margin-bottom: 0.5em;
+    margin-top: 1em;
 }
 
 .time {
