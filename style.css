@@ -129,6 +129,51 @@ a {
     margin-bottom: 7em;
 }
 
+#schedule {
+    background-image: url('images/schedule-background.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    position: relative;
+    top: 7em;
+}
+
+#schedule h1 {
+    position: relative;
+    top: 1em;
+    text-align: center;
+    font-size: 4em;
+}
+
+.column {
+    line-height: 2.2em;
+    text-align: center;
+    width: 49%;
+    display: inline-block;
+    height: 40em;
+    position: relative;
+    top: 3em;
+    clear: both;
+}
+
+.day-header {
+    font-family: 'Montserrat';
+    font-size: 3em;
+    margin-bottom: 1.0em;
+}
+
+.time {
+    color: pink;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.description {
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
 #meet {
     clear: both;
     float: right;
@@ -145,7 +190,7 @@ a {
 .member {
     display: inline-block;
     width: 24.5%;
-    height: 11em;
+    height: 13em;
     background-size: 100% 100%;
     color: white;
     font-size: 2em;
