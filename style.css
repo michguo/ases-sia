@@ -1,10 +1,10 @@
-html {
+/*html {
     background: url("./images/main.png"); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-}
+}*/
 
 html, body {
     height: 100%;
@@ -13,6 +13,7 @@ html, body {
 }
 
 nav ul {
+    display: block;
     float: right;
 }
 
@@ -27,7 +28,16 @@ nav li {
     float: left;
 }
 
+#team-nav li {
+    color: gray;
+}
+
 #main {
+    background: url("./images/main.png"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     display:block;
     width: 100%;
     height: 100%;
@@ -55,7 +65,7 @@ nav li {
     position: relative;
     top: 7em;
     text-align: right;
-    right: 3.0em;
+    right: 6.0em;
     clear: both;
 }
 
@@ -94,4 +104,74 @@ button {
 
 a {
     text-decoration: none;
+}
+
+#about {
+    font-family: 'Open Sans';
+}
+
+#what-is-sia {
+    font-family: 'Montserrat';
+    color: #ff5a5a;
+    font-weight: 700;
+    position: relative;
+    top: 1.5em;
+    display: block;
+    text-align: center;
+    font-size: 4em;
+}
+
+#about p {
+    position: relative;
+    top: 7em;
+    padding-left: 12em;
+    padding-right: 12em;
+    margin-bottom: 7em;
+}
+
+#meet {
+    clear: both;
+    float: right;
+    width: 5em;
+    text-align: right;
+    color: gray;
+    font-family: 'San Francisco Text';
+    font-size: 5em;
+    font-weight: 700;
+    letter-spacing: 0.5em;
+    line-height: 2em;
+}
+
+.member {
+    display: inline-block;
+    width: 24.5%;
+    height: 11em;
+    background-size: 100% 100%;
+    color: white;
+    font-size: 2em;
+    margin-top: 0.3em;
+}
+
+/* Team Member photos */
+
+#david {
+    background-image: url('./images/david.png');
+}
+#calvin {
+    background-image: url('./images/calvin.png');
+}
+#laura {
+    background-image: url('./images/laura.png');
+}
+#angela {
+    background-image: url('./images/angela.png');
+}
+#ashwin {
+    background-image: url('./images/ashwin.png');
+}
+#anna {
+    background-image: url('./images/anna.png');
+}
+#annie {
+    background-image: url('./images/annie.png');
 }
